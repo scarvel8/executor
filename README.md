@@ -18,3 +18,7 @@ Next steps:
 5.) Define config files (HCL?)
 6.) Move shell definition to a config file
 7.) Begin remote executor work, define types for remote server definition, etc.
+
+Example run:
+
+executor exec "ls -al -t | grep go >>test.txt"
